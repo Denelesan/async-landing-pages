@@ -1,6 +1,6 @@
 //Para obtener canciones de un artista
 const API = 'https://spotify23.p.rapidapi.com/artist_singles/?id=12wTrvRwxmsbUxkLffkPfv&offset=0&limit=20';
-//const API = 'https://spotify23.p.rapidapi.com/artist_singles/?id=4Z8W4fKeB5YxbusRsdQVPb&offset=0&limit=20';
+//const API = 'https://spotify23.p.rapidapi.com/artist_singles/?id=7jy3rLJdDQY21OgRLCZ9sD&offset=0&limit=20';
 const content = null || document.getElementById('content');
 const options = {
 	method: 'GET',
@@ -18,7 +18,7 @@ async function fetchData(urlApi){
 	return data;  
 
 }
-
+a
 //Función que se invoca a si misma
 (async () => {
     try{
