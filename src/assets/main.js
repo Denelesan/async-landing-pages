@@ -18,7 +18,7 @@ async function fetchData(urlApi){
 	return data;  
 
 }
-a
+
 //Función que se invoca a si misma
 (async () => {
     try{
